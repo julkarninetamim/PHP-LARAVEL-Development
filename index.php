@@ -89,5 +89,18 @@ The height is : 135
 The height is : 80 
 
 */
+//strlen(); function in PHP( use to calculate the length of String
+echo strlen("Bnagladesh");//it
+//OUTPUT is : 9
 
+// strtoupper(); function in PHP (use to convert the string from lowercase to uppercase)
+echo strtupper("hello");
+//OUTPUT is: HELLO
 
+// strtolwer(); function in PHP(use to convert the string from uppercase to lowercase)
+echo strtolwer("HELLO");
+//OUTPUT is: hello
+//str_replace('e', 'a', '$variable'); function in PHP( use to replace the latter or word from specific word or sentence;
+
+echo str_replace("I","We","I love Bangladesh!");
+//Output is: We love Bangladesh
