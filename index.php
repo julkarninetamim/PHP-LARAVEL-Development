@@ -104,3 +104,20 @@ echo strtolwer("HELLO");
 
 echo str_replace("I","We","I love Bangladesh!");
 //Output is: We love Bangladesh
+
+
+//function with single parameter and argument
+    function testFunction($a = 1)// here($a = 1)is parameter
+    {
+        return $a;
+    }
+    echo testFunction(); // output is: 1
+    echo testFunction(2);//here 2 is argument // output: is 2, 
+
+//Function with multiple parameter and argument
+    function testFunction($a, $b = 1, $c = 1, $d = 1)//Here ($a, $b = 1, $c = 1, $d = 1) is multiple parameter
+    {
+        return $a + $b + $c + $d;
+    }
+    echo testFunction(1); // output is: 4
+    echo testFunction(1, 2);//Here 1,2 is argument // output is: 5
