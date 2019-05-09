@@ -2,7 +2,6 @@
 //-------------------------------------------------------------------
 // 1.Indexed Array|| 2.Associative Array|| 3.Multidimentional Array
 //-------------------------------------------------------------------
-
 //                             1.Indexed Array
 //-------------------------------------------------------------------
 
@@ -22,7 +21,6 @@ print_r($indexedArray);
           [3] => orange
              ) */
 //-------------------------------------------------------------------
-
 //                       2.Associative Array
 //-------------------------------------------------------------------
 
@@ -58,7 +56,7 @@ $multidimentionalArray= [
 
 
 ];
-print_r($sample2);
+print_r($multidimentionalArray);
 // output will be:
    /*               Array( 
                        [0] => Array (
@@ -98,7 +96,7 @@ print_r($sample2);
 
 // If we wanto to access the value 99 , we have to write code:
 
-   echo $sample2[4][3][3];
+   echo $multidimentionalArray[4][3][3];
 
 //The output will be:  99
 
